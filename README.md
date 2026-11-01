@@ -1,48 +1,57 @@
-# Awesome-Data-Governance-Security-Suite
+<div align="center">
 
-# Awesome-Data-Governance-Security-Suite
+<a href="https://github.com/ishandutta2007/Awesome-Data-Governance-Security-Suite">
+  <img src="assets/banner.svg" alt="Awesome Data Governance &amp; Security Suite Banner" width="100%" />
+</a>
 
-**Top Data Governance Security Suite (Opensource) 🌟 Star if you like it! 🌟**
+# 🛡️ Awesome Data Governance &amp; Security Suite 🔐
 
+**A curated directory of top-tier Data Governance, Active Metadata Catalogs, Fine-Grained Access Control, and AI Security Posture platforms.**
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Governance-Security-Suite/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Governance-Security-Suite?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Governance-Security-Suite/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Data-Governance-Security-Suite?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Governance-Security-Suite/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Data-Governance-Security-Suite?style=flat-square&color=brightgreen" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Governance-Security-Suite/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+<p align="center">
+  <strong>🌟 Star if you find this repository valuable! 🌟</strong><br/>
+  <em>Last updated: November 2026</em>
+</p>
 
-*Focused on Data Catalogs, Access Control, Privacy Automation & Self-Hosted Metadata Governance*
+---
 
-**Last updated: November 2026**
+</div>
 
+## 📖 Table of Contents
 
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Composable Open-Source Architecture](#-composable-open-source-architecture)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [💖 Support](#-support)
+- [⚖️ Disclaimer & Strategic Taxonomy](#-disclaimer--strategic-taxonomy)
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Data Governance & Security Suites**. These tools enable organizations to catalog data assets, enforce access policies, automate privacy compliance, and govern AI systems—from fully managed enterprise platforms with agent identity and semantic layers to open-source metadata frameworks that give teams control over their governance infrastructure.
+---
 
+## 🌐 Sector Overview & Market Dynamics
 
+The global data governance market is valued at approximately **$4.3B–$5.4B in 2025** and projected to surpass **$17B+ by the early 2030s**, propelled by regulatory pressure (GDPR, CCPA, EU AI Act) and multi-cloud architectural complexity. The vendor landscape is **moderately concentrated at the top**—dominated by mega-cap cloud providers (Microsoft, Snowflake) and specialized leaders (Collibra, OneTrust) holding 30%–40% share—yet remains **fragmented across point solutions** in cataloging, data access control, and privacy posture management.
 
-**Examples** include Snowflake Horizon, Collibra, Alation, Immuta, Privacera (Trust3 AI), Atlan, Microsoft Purview, Apache Atlas, OneTrust, and BigID (the category leaders in commercial and open-source space).
+Organizations today demand unified data intelligence across data, identity, and AI models:
+- **Agentic Governance:** Assigning cryptographically verifiable identities to AI autonomous agents and Copilots.
+- **Active Metadata & Data Products:** Dynamic column-level lineage and automated semantic catalogs.
+- **Fine-Grained Dynamic Authorization:** Attribute-based access control (ABAC), row-level filtering, and policy enforcement points across heterogeneous pipelines.
 
+---
 
-
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted data governance, metadata management, and open access control. **Critical note**: The open-source landscape is anchored by **Apache Atlas**—the most mature metadata governance framework for Hadoop ecosystems—and **DataHub** and **OpenMetadata** as modern catalog alternatives. However, no open-source project matches Snowflake Horizon's agent identity governance or Collibra's business glossary depth out of the box.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global data governance market is valued at approximately **$4.3B–$5.4B in 2025** and projected to surpass **$17B+ by the early 2030s**, propelled by regulatory pressure (GDPR, EU AI Act) and multi-cloud architectural complexity. The vendor landscape is **moderately concentrated at the top**—dominated by mega-cap cloud providers (Microsoft, Snowflake) and specialized leaders (Collibra, OneTrust) holding 30%–40% share—yet remains **fragmented across point solutions** in cataloging, data access control, and privacy posture management.
-
-## SaaS/Hosted Platforms
+## ☁️ SaaS / Hosted Platforms
 
 | Product | Company Valuation / Revenue | Pricing (Starting Tier) | Free Tier / Free Trial Limits | Key Focus & Capabilities |
 | :--- | :--- | :--- | :--- | :--- |
@@ -56,93 +65,161 @@ The global data governance market is valued at approximately **$4.3B–$5.4B in 
 | **[Atlan](https://atlan.com/)** | **$750M** (Valuation) / **~$30M–$70M** ARR | Enterprise cloud marketplace listings start at **~$120,000/year** (scales by assets, user seats, and AI credits) | **14 to 30-day guided PoC** with read-only connectors available via sales or AWS private offer; no open self-serve tier | Active metadata platform, AI context layer, Model Context Protocol (MCP) server, and data marketplace. |
 | **[Privacera (Trust3 AI)](https://privacera.com/)** | **~$250M–$500M** (Valuation) / **~$35M–$38M** ARR | PrivaceraCloud Starter Pack on AWS Marketplace starts at **~$100,000/year** (covers core data access governance) | **30-day free trial** for PrivaceraCloud on AWS Marketplace; custom PoC for enterprise multi-cloud setups | Agentic data and AI access governance, Apache Ranger-based centralized policies, and trust agents. |
 
+---
 
-## Open-Source GitHub Projects
+## 🔓 Open-Source GitHub Projects
 
+The open-source data governance and security projects are sorted below by **GitHub Star Count (descending)**:
 
+### 1. 🗂️ [OpenMetadata](https://github.com/open-metadata/OpenMetadata) [![Stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social&color=white)](https://github.com/open-metadata/OpenMetadata/stargazers)
+* **Description:** Unified metadata platform and modern catalog with comprehensive built-in governance, data quality, and collaboration features.
+* **Key Features:** Automated classification for PII tagging, end-to-end column-level data lineage, schema change alerts, data quality test suites, and team glossaries.
+* **Tech Stack:** Java, TypeScript, React, PostgreSQL / MySQL, Elasticsearch.
+* **License:** Apache-2.0.
+* **Best For:** Modern data teams wanting an all-in-one open catalog with automated classification and data quality out of the box.
 
-- **[Apache Atlas](https://github.com/apache/atlas)**
+### 2. 🔍 [DataHub](https://github.com/datahub-project/datahub) [![Stars](https://img.shields.io/github/stars/datahub-project/datahub?style=social&color=white)](https://github.com/datahub-project/datahub/stargazers)
+* **Description:** Extensible developer-friendly metadata platform originally created at LinkedIn, designed for real-time metadata search and data governance.
+* **Key Features:** Real-time push-based metadata ingestion, interactive graph exploration for lineage, automated schema tracking, tags, terms, and ownership management.
+* **Tech Stack:** Java, Python, React, Kafka, Neo4j / Elasticsearch.
+* **License:** Apache-2.0.
+* **Best For:** Fast-growing teams needing modular real-time metadata streaming and modern catalog UI.
 
-  **Open-source metadata management and governance framework** (Apache-2.0) — **the most mature open-source data governance framework**, designed for enterprises to capture, manage, and govern metadata across systems . **Features**: **Centralized metadata repository** for databases, tables, columns, and relationships; supports Hadoop, relational databases, cloud storage, and more; **data classification** and access controls; **data lineage tracking**—trace origin and transformations of data assets for GDPR compliance; **data discovery** and metadata search; integration with other data management tools . **Tech stack**: Java. **Deploy**: Self-hosted (requires Hadoop ecosystem). **Trade-off**: **Hadoop-ecosystem-centric**—heavier and more complex than modern alternatives; UI and architecture feel dated. **Best for**: organizations running Hadoop/Spark ecosystems needing centralized metadata governance with lineage and classification.
+### 3. 🛡️ [Open Policy Agent (OPA)](https://github.com/open-policy-agent/opa) [![Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers)
+* **Description:** General-purpose, cloud-native policy engine (CNCF Graduated) providing unified, context-aware policy enforcement across microservices, Kubernetes, and data pipelines.
+* **Key Features:** Declarative policy language (Rego), high-performance in-memory evaluation, fine-grained attribute-based access control (ABAC), and policy testing framework.
+* **Tech Stack:** Go.
+* **License:** Apache-2.0.
+* **Best For:** Enforcing unified security authorization policies and API-level data access rules across cloud stacks.
 
+### 4. 🧪 [Great Expectations](https://github.com/great-expectations/great_expectations) [![Stars](https://img.shields.io/github/stars/great-expectations/great_expectations?style=social&color=white)](https://github.com/great-expectations/great_expectations/stargazers)
+* **Description:** The leading open-source data quality, profiling, and validation framework for robust data governance.
+* **Key Features:** Declarative assertions (Expectations), automated data profiling, HTML data docs generation, and native integration into CI/CD and orchestration pipelines.
+* **Tech Stack:** Python.
+* **License:** Apache-2.0.
+* **Best For:** Preventing data pipeline silent failures, enforcing SLAs, and automating data quality validation.
 
+### 5. 🔎 [Amundsen](https://github.com/amundsen-io/amundsen) [![Stars](https://img.shields.io/github/stars/amundsen-io/amundsen?style=social&color=white)](https://github.com/amundsen-io/amundsen/stargazers)
+* **Description:** Data discovery and metadata engine created at Lyft, indexing data assets to power discovery, team collaboration, and compliance tracking.
+* **Key Features:** PageRank-style search relevance for datasets, dashboards, and streams; frequent user tracking, table descriptions, and curation tags.
+* **Tech Stack:** Python, React, Neo4j / Apache Atlas backend.
+* **License:** Apache-2.0.
+* **Best For:** Improving organizational data discovery, data democratisation, and metadata indexing across decentralized teams.
 
-- **[DataHub](https://github.com/datahub-project/datahub)**
+### 6. 🔗 [Apache Linkis](https://github.com/apache/linkis) [![Stars](https://img.shields.io/github/stars/apache/linkis?style=social&color=white)](https://github.com/apache/linkis/stargazers)
+* **Description:** Enterprise computation middleware layer facilitating secure connection, governance, and resource orchestration between client applications and compute engines.
+* **Key Features:** Multi-tenant isolation, unified data governance interface, job lifecycle management, and fine-grained computational access control across heterogeneous engines.
+* **Tech Stack:** Java, Scala.
+* **License:** Apache-2.0.
+* **Best For:** Enterprise compute governance, engine isolation, and unified access control across big data compute clusters.
 
-  **Modern metadata platform** (Apache-2.0, originally LinkedIn) — **the most actively developed open-source metadata catalog**, with real-time metadata ingestion and a modern UI. **Features**: **Metadata search and discovery**; **column-level lineage**; **governance** with tags, terms, and ownership; **real-time ingestion** from warehouses, BI tools, and pipelines; **extensible** via metadata model and APIs. **Tech stack**: Java, Python, React. **Deploy**: Self-hosted (Docker, Kubernetes) or Acryl Cloud. **Trade-off**: **Catalog and metadata, not full governance suite**—no native access control enforcement or privacy automation like Immuta or BigID. **Best for**: teams wanting a modern, actively maintained metadata catalog with lineage—especially those migrating from Apache Atlas.
+### 7. 🌐 [Apache Gravitino](https://github.com/apache/gravitino) [![Stars](https://img.shields.io/github/stars/apache/gravitino?style=social&color=white)](https://github.com/apache/gravitino/stargazers)
+* **Description:** High-performance, geo-distributed federated metadata lake catalog (Apache TLP) designed for unified governance across warehouses, data lakes, and AI models.
+* **Key Features:** Multi-engine catalog federation (Iceberg, Hive, Trino, MySQL), AI asset metadata management, Model Context Protocol (MCP) server integration, and role-based access.
+* **Tech Stack:** Java.
+* **License:** Apache-2.0.
+* **Best For:** Multi-cloud federated data lakes and AI systems requiring a unified catalog interface across heterogeneous storage.
 
+### 8. 📐 [OpenLineage](https://github.com/OpenLineage/OpenLineage) [![Stars](https://img.shields.io/github/stars/OpenLineage/OpenLineage?style=social&color=white)](https://github.com/OpenLineage/OpenLineage/stargazers)
+* **Description:** Open industry standard for observational data lineage collection across pipelines, extractors, and transformation tools.
+* **Key Features:** Standardized JSON lineage specification, automated run facets, dataset lifecycle tracking, and connectors for Spark, Airflow, dbt, Flink, and Dagster.
+* **Tech Stack:** Java, Python.
+* **License:** Apache-2.0.
+* **Best For:** Standardizing cross-platform metadata lineage extraction across complex multi-tool transformation ecosystems.
 
+### 9. 🧭 [Marquez](https://github.com/MarquezProject/marquez) [![Stars](https://img.shields.io/github/stars/MarquezProject/marquez?style=social&color=white)](https://github.com/MarquezProject/marquez/stargazers)
+* **Description:** Modular metadata storage service and reference implementation of the OpenLineage standard, developed by WeWork.
+* **Key Features:** Centralized lineage repository, real-time dataset dependency visualization, job execution history, and dataset version tracking.
+* **Tech Stack:** Java, React, PostgreSQL.
+* **License:** Apache-2.0.
+* **Best For:** Visualizing operational data lineage, tracking root-cause dataset failures, and OpenLineage backend storage.
 
-- **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)**
+### 10. 🏛️ [Apache Atlas](https://github.com/apache/atlas) [![Stars](https://img.shields.io/github/stars/apache/atlas?style=social&color=white)](https://github.com/apache/atlas/stargazers)
+* **Description:** Mature enterprise metadata management and governance framework built primarily for the Hadoop and Spark big-data ecosystem.
+* **Key Features:** Centralized metadata store, hierarchical taxonomy and classification, automated data lineage for GDPR/HIPAA compliance, and integration with Apache Ranger.
+* **Tech Stack:** Java, HBase, Solr.
+* **License:** Apache-2.0.
+* **Best For:** Organizations running on-premises or cloud Hadoop/Spark clusters needing centralized metadata classification and regulatory audit trails.
 
-  **Open metadata platform with governance features** (Apache-2.0) — **the most complete open-source alternative to commercial catalogs**, with classification and quality capabilities. **Features**: **Auto Classification** for PII tagging; **Data Quality tests**; **column-level lineage**; **governance** with tags, glossary, and ownership; **Collate** (commercial) adds AI-powered recognizers and feedback loops. **Tech stack**: Java, React, PostgreSQL. **Deploy**: Self-hosted (Docker, Kubernetes) or Collate Cloud. **Trade-off**: **Advanced classification features are Collate-gated**—open-source version has base capabilities but not the full AI recognizer loop. **Best for**: organizations wanting a self-hosted catalog with PII classification and governance basics—especially those not on Hadoop.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Apache Ranger** — Centralized security policy framework (Apache-2.0). Column masking, row filtering, audit for Hadoop ecosystem. **Note**: **Policy enforcement for Hadoop**, not a full governance catalog. **Best for**: Hadoop/Spark teams needing access control enforcement.
-
-- **Apache Gravitino** — Federated metadata catalog (Apache-2.0, Apache TLP). Unified metadata across warehouses, lakes, and AI assets; MCP server. **Note**: **Catalog federation**, not governance workflows. **Best for**: organizations with heterogeneous metadata sources.
-
-
-
-**Frameworks for building custom systems**: Combine **DataHub** or **OpenMetadata** for catalog and lineage with **Apache Ranger** for policy enforcement and **Apache Atlas** for Hadoop-native lineage—creating a composable open-source governance stack. **None of these match Snowflake Horizon's agent identity governance or Collibra's business glossary depth**, but for core cataloging and metadata governance, the open-source options are production-capable.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Data governance platforms handling sensitive data and access policies must comply with data protection regulations (GDPR, CCPA, HIPAA, etc.) and implement appropriate access controls and audit logging.
-
-- **The "agentic governance" vs. "catalog-centric" vs. "access control" vs. "privacy automation" vs. "metadata framework" distinction is critical.** **Snowflake Horizon** is **agentic governance**—it assigns identities to AI agents and monitors their activity . **Collibra, Alation, and Atlan** are **catalog-centric**—they focus on discovery, lineage, and business context . **Immuta** is **access control**—it enforces attribute-based policies across data platforms and custom securables . **OneTrust and BigID** are **privacy automation**—they handle DSARs, consent, and classification . **Apache Atlas** is a **metadata framework**—it captures and governs metadata but does not enforce access policies . **Choose based on whether you need AI agent governance, catalog discovery, access enforcement, privacy compliance, or metadata lineage.**
-
-- **Snowflake Horizon's Agent Identity is a category-defining feature for AI governance.** It assigns verified identities to agents before data access, with full audit trails—addressing the gap where traditional access controls were built for humans, not autonomous agents . **No open-source project replicates this.**
-
-- **Immuta's Custom Securables extend governance beyond databases.** You can register APIs, SaaS applications, and dashboards as securables and apply subscription policies—Immuta decides, your tools enforce via API/webhook . **This is unique among both open-source and commercial options.**
-
-- **Microsoft Purview's governed asset billing requires careful planning.** You are only charged for assets linked to governance concepts (data products, glossary terms, critical data elements)—unlinked assets in Data Map are free . **This rewards governance maturity but penalizes broad cataloging without curation.**
-
-- **Collibra's SAP Store listing shows ~$170,000/year** for 20 Standard users and unlimited read-only users . **This is a six-figure commitment—do not evaluate without enterprise budget approval.**
-
-- **Atlan reviewer notes privacy governance as a weakness** . **For privacy-first requirements, OneTrust or BigID are stronger choices.**
-
-- **Apache Atlas is Hadoop-centric.** It was designed for the Hadoop ecosystem and remains the standard there, but modern alternatives (DataHub, OpenMetadata) offer better UX and active development. **Choose Atlas only if you are already on Hadoop.**
-
-- **Pricing opacity is universal** across Collibra, Alation, Immuta, Privacera, Atlan, OneTrust, and BigID. All require sales contact or quote requests. **Microsoft Purview publishes pay-as-you-go pricing** . **Snowflake Horizon is included with Snowflake.** **Validate with direct vendor conversations against your data source count and governance maturity.**
-
-- Self-hosted open-source solutions require proper infrastructure (Hadoop for Atlas, PostgreSQL for OpenMetadata, Docker for DataHub), security hardening, and ongoing maintenance. **Governance platforms handle sensitive metadata and access policies**—ensure your deployment meets your organization's security and compliance requirements before connecting production systems.
-
-
+### 11. 💂‍♂️ [Apache Ranger](https://github.com/apache/ranger) [![Stars](https://img.shields.io/github/stars/apache/ranger?style=social&color=white)](https://github.com/apache/ranger/stargazers)
+* **Description:** Centralized security administration and policy management framework for fine-grained access control across big data components.
+* **Key Features:** Attribute and role-based access control, dynamic column masking, row-level filtering, centralized audit logging, and tag-based security policies (integrates with Atlas).
+* **Tech Stack:** Java.
+* **License:** Apache-2.0.
+* **Best For:** Precise access policy enforcement, row/column security, and compliance auditing in Hadoop, Hive, Presto/Trino, and Kafka clusters.
 
 ---
 
+## 🛠️ Composable Open-Source Architecture
 
+When building an enterprise-grade self-hosted governance and security suite, combining specialized tools yields optimal coverage:
 
-**Made for data governance teams, privacy officers, and organizations building transparent governance solutions.**
+```
+┌────────────────────────────────────────────────────────┐
+│             Data Discovery & Governance UI             │
+│            (OpenMetadata / DataHub / Amundsen)         │
+└──────────────────────────┬─────────────────────────────┘
+                           │
+         ┌─────────────────┴─────────────────┐
+         ▼                                   ▼
+┌──────────────────┐               ┌──────────────────┐
+│  Data Quality &  │               │ Fine-Grained     │
+│   Validation     │               │ Access & Policy  │
+│(GreatExpectations│               │  (OPA / Ranger)  │
+└────────┬─────────┘               └────────┬─────────┘
+         │                                  │
+         └─────────────────┬────────────────┘
+                           ▼
+┌────────────────────────────────────────────────────────┐
+│     Lineage, Federated Catalogs & Engine Orchestration │
+│      (OpenLineage + Marquez / Gravitino / Linkis)      │
+└────────────────────────────────────────────────────────┘
+```
 
-Let's make Data Governance & Security Suites more open, data-driven, and AI-governed.
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these simple steps:
+1. 🍴 Fork the repository.
+2. 🌿 Create your feature branch (`git checkout -b feature/add-new-tool`).
+3. 📝 Add your entry adhering to the existing format (include license, capabilities, star badge, and factual descriptions).
+4. 🚀 Commit your changes (`git commit -m 'feat: add tool-name'`).
+5. 📬 Open a Pull Request with a clear explanation of the addition.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Data-Governance-Security-Suite&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Data-Governance-Security-Suite&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+Thank you for exploring and utilizing the **Awesome Data Governance & Security Suite**! 🌟
+
+If you found this curated list helpful, please consider:
+- ⭐ **Starring** the repository on GitHub.
+- 🍴 **Forking** and sharing it with data engineers, architects, and compliance officers.
+- ☕ Sponsoring this project to support ongoing maintenance and research:
+  [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/ishandutta2007)
+
+---
+
+## ⚖️ Disclaimer & Strategic Taxonomy
+
+- This repository is a **community-curated** list intended for educational and architectural evaluation.
+- Data governance platforms handling sensitive data and access policies must comply with data protection regulations (GDPR, CCPA, HIPAA, etc.) and implement appropriate access controls and audit logging.
+- **The "agentic governance" vs. "catalog-centric" vs. "access control" vs. "privacy automation" vs. "metadata framework" distinction is critical:**
+  - **Snowflake Horizon** is *agentic governance*—assigning verified identities to AI agents and monitoring autonomous runtime queries.
+  - **Collibra, Alation, and Atlan** are *catalog-centric*—focusing on business glossaries, active context layers, and metadata lineage.
+  - **Immuta, OPA, and Apache Ranger** are *access control & policy engines*—enforcing ABAC/RBAC, masking, and row-level filtering across data platforms.
+  - **OneTrust and BigID** are *privacy automation & DSPM*—handling DSARs, consent tracking, sensitive data posture, and compliance audits.
+  - **OpenMetadata, DataHub, and Apache Atlas** are *metadata platforms*—capturing, cataloging, and orchestrating metadata, lineage, and schemas across heterogeneous warehouses.
+
+---
+
+<p align="center">
+  Made with ❤️ for data governance teams, privacy officers, and platform architects building transparent, AI-governed data ecosystems.
+</p>
