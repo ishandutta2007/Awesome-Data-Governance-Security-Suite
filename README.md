@@ -32,72 +32,29 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global data governance market is valued at approximately **$4.3B–$5.4B in 2025** and projected to surpass **$17B+ by the early 2030s**, propelled by regulatory pressure (GDPR, EU AI Act) and multi-cloud architectural complexity. The vendor landscape is **moderately concentrated at the top**—dominated by mega-cap cloud providers (Microsoft, Snowflake) and specialized leaders (Collibra, OneTrust) holding 30%–40% share—yet remains **fragmented across point solutions** in cataloging, data access control, and privacy posture management.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Snowflake Horizon](https://www.snowflake.com/)**
-
-  **Native governance and security suite** within the AI Data Cloud. **Horizon Context** unifies business logic across the enterprise so tools, teams, and AI agents operate on the same definitions; **Semantic Studio** lets users define shared business logic without SQL, and **Semantic View Autopilot** generates and refines semantic views automatically . **Agent Identity** assigns verified identities to AI agents before data access, enforcing role-based permissions and full audit trails; **Trust Center** continuously monitors AI security posture and investigates violations . Supports **Open Semantic Interchange (OSI)** for vendor-neutral business definitions . **Pricing**: Included with Snowflake; consumption-based credits apply. **Free tier**: Trial credits. **Best for**: Snowflake customers wanting unified governance across data and AI agents—**trade-off**: Snowflake ecosystem lock-in.
-
-
-
-- **[Collibra Data Intelligence](https://www.collibra.com/)**
-
-  **Enterprise data governance and catalog** platform. **Pricing**: SAP Store lists **~$170,000/year** for 20 Standard users + unlimited read-only users, production and non-production environments, and initial integrations . **Free tier**: None. **Best for**: enterprises needing flexible governance, enterprise-wide catalog, continuous quality, and built-in privacy —**trade-off**: six-figure annual commitment.
-
-
-
-- **[Alation](https://www.alation.com/)**
-
-  **Data catalog with AI-powered discovery** and governance. **Features**: Machine learning interprets natural language for data search; lineage, tags, trust flags, and endorsements; **ALLIE AI** recommends metadata descriptions; **Agentic Platform** with Documentation Agent and Data Quality Agent (beta/GA Q2 2025); **AI Agent SDK** supporting Anthropic's MCP for building agents on Alation's capabilities . **Pricing**: Quote-only. **Free tier**: None. **Best for**: teams wanting a people-first governance approach with AI-assisted cataloging—**trade-off**: no public pricing; privacy governance noted as weaker area .
-
-
-
-- **[Immuta](https://www.immuta.com/)**
-
-  **Data security and access control** platform. **Custom Securables** extend subscription policies to any object—APIs, SaaS applications, dashboards—beyond directly integrated data platforms. Immuta acts as **policy decision point**, providing access decisions while self-administered tools enforce them via API or webhooks . Named Snowflake's Data Cloud Product Data Security Partner of the Year (2024, second consecutive year) . **Pricing**: Quote-only. **Free tier**: None. **Best for**: organizations wanting fine-grained, attribute-based access control across diverse systems—**trade-off**: enterprise pricing; custom securables require integration work.
-
-
-
-- **[Privacera (Trust3 AI)](https://privacera.com/)**
-
-  **Agentic data and AI governance** platform. **Features**: Trust agents for governing data and AI with enterprise-grade security; positioned as "the #1 Agentic Platform to Meet All Your Data and AI Governance Needs" . **Pricing**: Quote-only. **Free tier**: None. **Best for**: enterprises wanting AI-era governance with agentic automation—**trade-off**: rebranded platform; verify feature continuity.
-
-
-
-- **[Atlan](https://atlan.com/)**
-
-  **Enterprise context layer for AI** and data catalog. **Features**: Connects to **100+ systems**—knowledge bases, work systems, warehouses, BI tools—reverse-engineering context from metadata, column-level lineage, and query history; delivers context downstream via **Model Context Protocol, A2A, SQL, and APIs**; **Data Quality Studio**, **Data Product Marketplace**, and **Context Agent Studios** . **Pricing**: Quote-only. **Free tier**: None. **Best for**: organizations wanting AI-ready context with fast time-to-value (1 month per reviewer)—**trade-off**: privacy governance noted as a weakness .
-
-
-
-- **[Microsoft Purview](https://www.microsoft.com/purview)**
-
-  **Unified data governance** with pay-as-you-go billing since January 6, 2025. **Unified Catalog** charges based on **unique governed assets per day**—assets are only counted when linked to governance concepts like data products, critical data elements, or glossary terms; unlinked assets in Data Map are free . **Data Map** scanning is free under certain billing conditions . **Pricing**: Pay-as-you-go (governed assets + data health processing units). **Free tier**: Data Map scanning free under conditions; classic Data Catalog available without pay-as-you-go consent . **Best for**: Microsoft-centric enterprises wanting usage-based governance—**trade-off**: governed asset definition requires careful planning to control costs.
-
-
-
-- **[OneTrust](https://www.onetrust.com/)**
-
-  **Privacy and data governance** platform. **Features**: Data discovery and classification, data mapping, DSAR automation, consent management, incident management, policy management, and privacy training . **Pricing**: Quote-only. **Free tier**: None. **Best for**: privacy teams needing comprehensive compliance automation—**trade-off**: privacy-first; less depth in technical metadata governance.
-
-
-
-- **[BigID](https://bigid.com/)**
-
-  **Data intelligence platform** for the AI era. **Features**: Discovery and classification across structured, unstructured, cloud, SaaS, on-premises, and AI-connected data; connects sensitivity to identity, access, activity, lineage, ownership, and business context; **AI Security and Governance**—discovers models, agents, copilots, prompts, datasets, vector stores, pipelines, and shadow AI . **Pricing**: Quote-only. **Free tier**: None. **Best for**: organizations wanting data intelligence across data, identity, and AI—**trade-off**: enterprise pricing; broad platform requires scoping.
-
+| Product | Company Valuation / Revenue | Pricing (Starting Tier) | Free Tier / Free Trial Limits | Key Focus & Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Purview](https://www.microsoft.com/purview)** | **$3.1T–$3.6T** (Market Cap) / **$245B+** Revenue | **$0.0165 / governed asset / day** (~$0.50/asset/month) on Unified Catalog pay-as-you-go; or part of M365 E5 compliance suites | **Free version** includes up to **1,000 annotated assets** (inactivity cleanup after 90 days); plus a **90-day free trial** with 25 M365 Purview Suite licenses | Unified enterprise catalog, data map scanning, DLP, and cross-cloud sensitivity labeling. |
+| **[Snowflake Horizon](https://www.snowflake.com/)** | **~$55B–$65B** (Market Cap) / **$3.6B** Revenue | Included with Snowflake; full Horizon governance requires **Enterprise Edition at $3.00/credit** (plus compute/storage consumption) | **30-day free trial** with **$400 in free usage credits** (whichever limit is reached first) | Native governance, Agent Identity for AI agents, Open Semantic Interchange, and Trust Center posture monitoring. |
+| **[Collibra Data Intelligence](https://www.collibra.com/)** | **$5.25B** (Valuation) / **~$210M+** ARR | Starts at **~$170,000/year** (SAP Store listing for 20 Standard users + unlimited read-only users, base integrations) | **No self-serve free trial**; access provided strictly via custom enterprise PoC or guided demo | Enterprise data catalog, policy governance, continuous data quality, and business glossaries. |
+| **[OneTrust](https://www.onetrust.com/)** | **$4.5B** (Valuation) / **~$500M+** ARR | Entry-level packages start at **~$10,000/year** (~$800–$1,100/month for single modules like basic consent) | **14-day free trial** for select modules (e.g., Cookie Consent/Privacy); full suite requires sales-led guided PoC | Data privacy automation, consent management, DSAR workflows, and compliance posture. |
+| **[Alation](https://www.alation.com/)** | **$1.7B** (Valuation) / **~$109M** ARR | Base platform entry packages start at **~$20,000–$60,000/year**; standard full enterprise deployments average **~$198,000/year** | **No self-serve free trial**; evaluation conducted via tailored guided enterprise PoC / pilot program | Data catalog with ALLIE AI auto-tagging, column-level lineage, and AI Agent SDK (MCP support). |
+| **[BigID](https://bigid.com/)** | **~$1.0B–$1.25B** (Valuation) / **~$100M+** ARR | Starter enterprise discovery packages (e.g., AWS Marketplace Foundation) start at **~$175,000/year** | **No self-serve free tier** for main suite; offers free risk assessment & CMP Express trial (full platform via scoped PoC) | Deep data discovery, classification across structured/unstructured data, DSPM, and shadow AI governance. |
+| **[Immuta](https://www.immuta.com/)** | **~$1.0B** (Valuation) / **~$24M+** ARR | Base packages on AWS Marketplace start at **~$96,000/year** (bundled Immuta Units for access orchestration) | **No open-ended free tier**; custom evaluation / PoC available on request via AWS Marketplace private offers | Attribute-based access control (ABAC), dynamic masking, and Custom Securables beyond native databases. |
+| **[Atlan](https://atlan.com/)** | **$750M** (Valuation) / **~$30M–$70M** ARR | Enterprise cloud marketplace listings start at **~$120,000/year** (scales by assets, user seats, and AI credits) | **14 to 30-day guided PoC** with read-only connectors available via sales or AWS private offer; no open self-serve tier | Active metadata platform, AI context layer, Model Context Protocol (MCP) server, and data marketplace. |
+| **[Privacera (Trust3 AI)](https://privacera.com/)** | **~$250M–$500M** (Valuation) / **~$35M–$38M** ARR | PrivaceraCloud Starter Pack on AWS Marketplace starts at **~$100,000/year** (covers core data access governance) | **30-day free trial** for PrivaceraCloud on AWS Marketplace; custom PoC for enterprise multi-cloud setups | Agentic data and AI access governance, Apache Ranger-based centralized policies, and trust agents. |
 
 
 ## Open-Source GitHub Projects
