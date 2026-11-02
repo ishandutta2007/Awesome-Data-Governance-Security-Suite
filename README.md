@@ -69,7 +69,7 @@ Organizations today demand unified data intelligence across data, identity, and 
 
 ## 🔓 Open-Source GitHub Projects
 
-The open-source data governance and security projects are sorted below by **GitHub Stars_Count (descending)**:
+The open-source data governance and security projects are sorted below by **GitHub_Stars_Count (descending)**:
 
 ### 1. 🗂️ [OpenMetadata](https://github.com/open-metadata/OpenMetadata) [![Stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social&color=white)](https://github.com/open-metadata/OpenMetadata/stargazers)
 * **Description:** Unified metadata platform and modern catalog with comprehensive built-in governance, data quality, and collaboration features.
