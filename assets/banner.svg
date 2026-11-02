@@ -1,183 +1,126 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 420" width="100%" height="100%">
   <defs>
-    <!-- Background Gradients -->
+    <!-- Background Dark Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#070b19" />
-      <stop offset="50%" stop-color="#0d152e" />
+      <stop offset="50%" stop-color="#0c1329" />
       <stop offset="100%" stop-color="#050814" />
     </linearGradient>
 
+    <!-- Vibrant Heading Gradient -->
     <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" />
       <stop offset="50%" stop-color="#818cf8" />
       <stop offset="100%" stop-color="#c084fc" />
     </linearGradient>
 
-    <linearGradient id="glowGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+    <!-- Radial Glowing Orbs -->
+    <radialGradient id="cyanOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3" />
+      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0.08" />
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
-    </linearGradient>
+    </radialGradient>
 
-    <linearGradient id="glowGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.2" />
+    <radialGradient id="purpleOrb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.25" />
+      <stop offset="70%" stop-color="#c084fc" stop-opacity="0.06" />
       <stop offset="100%" stop-color="#c084fc" stop-opacity="0" />
-    </linearGradient>
+    </radialGradient>
 
     <!-- Grid Pattern -->
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="1" stroke-opacity="0.4" />
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="1" stroke-opacity="0.45" />
     </pattern>
-
-    <!-- Filter for subtle glow effects -->
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-
-    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="15" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
   </defs>
 
-  <style><![CDATA[
-    .title-text {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      font-weight: 800;
-      font-size: 44px;
-      letter-spacing: -0.5px;
-    }
-    .subtitle-text {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      font-weight: 500;
-      font-size: 18px;
-      fill: #94a3b8;
-    }
-    .badge-text {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      font-weight: 600;
-      font-size: 13px;
-      fill: #e2e8f0;
-    }
-    /* Dynamic pulsing & flowing keyframes */
-    @keyframes pulseOrb {
-      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.6; }
-      50% { transform: scale(1.15) translate(-20px, 15px); opacity: 0.9; }
-    }
-    @keyframes pulseOrb2 {
-      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.5; }
-      50% { transform: scale(1.2) translate(25px, -15px); opacity: 0.85; }
-    }
-    @keyframes floatCard1 {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-8px); }
-    }
-    @keyframes floatCard2 {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(7px); }
-    }
-    @keyframes dashLine {
-      to { stroke-dashoffset: -40; }
-    }
-    .orb-1 {
-      animation: pulseOrb 8s ease-in-out infinite;
-      transform-origin: 200px 100px;
-    }
-    .orb-2 {
-      animation: pulseOrb2 10s ease-in-out infinite;
-      transform-origin: 1000px 300px;
-    }
-    .card-float-1 {
-      animation: floatCard1 5s ease-in-out infinite;
-    }
-    .card-float-2 {
-      animation: floatCard2 6s ease-in-out infinite;
-    }
-    .data-flow-line {
-      stroke-dasharray: 6, 6;
-      animation: dashLine 2s linear infinite;
-    }
-  ]]></style>
-
-  <!-- Background Base -->
+  <!-- 1. Background Base -->
   <rect width="1200" height="420" rx="16" fill="url(#bgGrad)" />
 
-  <!-- Grid Overlay -->
-  <rect width="1200" height="420" rx="16" fill="url(#grid)" />
+  <!-- 2. Grid Overlay -->
+  <rect width="1200" height="420" rx="16" fill="url(#gridPattern)" />
 
-  <!-- Ambient Dynamic Glowing Orbs (Behind content) -->
-  <g class="orb-1">
-    <circle cx="220" cy="120" r="180" fill="url(#glowGrad1)" filter="url(#softGlow)" />
-  </g>
-  <g class="orb-2">
-    <circle cx="980" cy="300" r="220" fill="url(#glowGrad2)" filter="url(#softGlow)" />
-  </g>
+  <!-- 3. Ambient Glowing Orbs with Native SMIL Pulsing -->
+  <circle cx="200" cy="120" r="190" fill="url(#cyanOrb)">
+    <animate attributeName="r" values="180;220;180" dur="7s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="7s" repeatCount="indefinite" />
+  </circle>
 
-  <!-- Animated Data Flow Lines (Background Layer) -->
-  <g opacity="0.45">
-    <path d="M 50 350 Q 300 280 600 350 T 1150 320" fill="none" stroke="#38bdf8" stroke-width="2" class="data-flow-line" />
-    <path d="M 80 80 Q 400 140 700 80 T 1120 110" fill="none" stroke="#c084fc" stroke-width="2" class="data-flow-line" />
-  </g>
+  <circle cx="1000" cy="300" r="230" fill="url(#purpleOrb)">
+    <animate attributeName="r" values="210;260;210" dur="9s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.6;0.95;0.6" dur="9s" repeatCount="indefinite" />
+  </circle>
 
-  <!-- Floating Dynamic Tech Decorative Badges / Pills (Layered below text) -->
-  <g class="card-float-1" opacity="0.85">
-    <!-- Top Right Floating Pill -->
-    <rect x="910" y="55" width="220" height="42" rx="21" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.6" filter="url(#glow)" />
-    <circle cx="932" cy="76" r="6" fill="#38bdf8" />
-    <text x="948" y="81" class="badge-text">🛡️ Access &amp; Compliance</text>
-  </g>
+  <!-- 4. Dynamic Animated Data Flow Stream Lines (SMIL stroke-dashoffset) -->
+  <path d="M 40 340 Q 300 270 600 340 T 1160 310" fill="none" stroke="#38bdf8" stroke-width="2" stroke-opacity="0.4" stroke-dasharray="8,8">
+    <animate attributeName="stroke-dashoffset" from="0" to="-32" dur="3s" repeatCount="indefinite" />
+  </path>
 
-  <g class="card-float-2" opacity="0.85">
-    <!-- Bottom Right Floating Pill -->
-    <rect x="880" y="325" width="240" height="42" rx="21" fill="#1e293b" stroke="#c084fc" stroke-width="1.5" stroke-opacity="0.6" filter="url(#glow)" />
-    <circle cx="902" cy="346" r="6" fill="#c084fc" />
-    <text x="918" y="351" class="badge-text">🤖 Agentic Data Governance</text>
-  </g>
+  <path d="M 60 90 Q 400 150 720 90 T 1140 120" fill="none" stroke="#c084fc" stroke-width="2" stroke-opacity="0.35" stroke-dasharray="8,8">
+    <animate attributeName="stroke-dashoffset" from="0" to="-32" dur="4s" repeatCount="indefinite" />
+  </path>
 
-  <g class="card-float-1" opacity="0.85">
-    <!-- Bottom Left Floating Pill -->
-    <rect x="70" y="335" width="200" height="42" rx="21" fill="#1e293b" stroke="#34d399" stroke-width="1.5" stroke-opacity="0.6" filter="url(#glow)" />
-    <circle cx="92" cy="356" r="6" fill="#34d399" />
-    <text x="108" y="361" class="badge-text">📊 Active Metadata &amp; Lineage</text>
+  <!-- 5. Floating Decorative Badges with SMIL Subtle Floating -->
+  <!-- Top Right Badge -->
+  <g transform="translate(900, 50)">
+    <animateTransform attributeName="transform" type="translate" values="900,50; 900,43; 900,50" dur="4s" repeatCount="indefinite" />
+    <rect width="240" height="42" rx="21" fill="#131e36" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.7" />
+    <circle cx="22" cy="21" r="5" fill="#38bdf8" />
+    <text x="36" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">🛡️ Access &amp; Compliance</text>
   </g>
 
-  <!-- Main Foreground Content Area -->
+  <!-- Bottom Right Badge -->
+  <g transform="translate(870, 325)">
+    <animateTransform attributeName="transform" type="translate" values="870,325; 870,332; 870,325" dur="5s" repeatCount="indefinite" />
+    <rect width="255" height="42" rx="21" fill="#181938" stroke="#c084fc" stroke-width="1.5" stroke-opacity="0.7" />
+    <circle cx="22" cy="21" r="5" fill="#c084fc" />
+    <text x="36" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">🤖 Agentic Data Governance</text>
+  </g>
+
+  <!-- Bottom Left Badge -->
+  <g transform="translate(65, 325)">
+    <animateTransform attributeName="transform" type="translate" values="65,325; 65,318; 65,325" dur="4.5s" repeatCount="indefinite" />
+    <rect width="235" height="42" rx="21" fill="#0f2628" stroke="#34d399" stroke-width="1.5" stroke-opacity="0.7" />
+    <circle cx="22" cy="21" r="5" fill="#34d399" />
+    <text x="36" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">📊 Active Lineage &amp; Catalog</text>
+  </g>
+
+  <!-- 6. Foreground Header Content (Clean & High Contrast) -->
   <g transform="translate(600, 160)" text-anchor="middle">
-    <!-- Tagline Pill -->
+    <!-- Tagline Badge -->
     <g transform="translate(0, -65)">
-      <rect x="-190" y="-16" width="380" height="32" rx="16" fill="#0f172a" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.7" />
-      <text x="0" y="5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="12" font-weight="700" fill="#a5b4fc" letter-spacing="1.5">
+      <rect x="-195" y="-16" width="390" height="32" rx="16" fill="#0f172a" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.8" />
+      <text x="0" y="5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#a5b4fc" letter-spacing="1.5">
         ✦ ENTERPRISE DATA INTELLIGENCE &amp; SECURITY ✦
       </text>
     </g>
 
-    <!-- Main Title (Gradient Foreground) -->
-    <text x="0" y="15" text-anchor="middle" class="title-text" fill="url(#primaryGrad)" filter="url(#glow)">
+    <!-- Main Title -->
+    <text x="0" y="16" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="44px" letter-spacing="-0.5px" fill="url(#primaryGrad)">
       Awesome Data Governance &amp; Security Suite
     </text>
 
     <!-- Subtitle -->
-    <text x="0" y="65" text-anchor="middle" class="subtitle-text">
+    <text x="0" y="66" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="500" font-size="18px" fill="#94a3b8">
       Curated Landscape of Enterprise SaaS Solutions &amp; Open-Source Security Ecosystems
     </text>
 
     <!-- Feature Pillars -->
     <g transform="translate(0, 115)">
-      <g transform="translate(-310, 0)">
-        <rect x="0" y="0" width="180" height="34" rx="8" fill="#1e293b" fill-opacity="0.9" stroke="#334155" />
-        <text x="90" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600" fill="#38bdf8">📁 Catalogs &amp; Metadata</text>
+      <g transform="translate(-305, 0)">
+        <rect x="0" y="0" width="185" height="36" rx="8" fill="#131e36" stroke="#253556" stroke-width="1.2" />
+        <text x="92" y="23" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#38bdf8">📁 Catalogs &amp; Metadata</text>
       </g>
-      <g transform="translate(-90, 0)">
-        <rect x="0" y="0" width="180" height="34" rx="8" fill="#1e293b" fill-opacity="0.9" stroke="#334155" />
-        <text x="90" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600" fill="#818cf8">🔐 Policy &amp; RBAC/ABAC</text>
+      <g transform="translate(-92, 0)">
+        <rect x="0" y="0" width="185" height="36" rx="8" fill="#161b3b" stroke="#2c356b" stroke-width="1.2" />
+        <text x="92" y="23" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#818cf8">🔐 Policy &amp; RBAC/ABAC</text>
       </g>
-      <g transform="translate(130, 0)">
-        <rect x="0" y="0" width="180" height="34" rx="8" fill="#1e293b" fill-opacity="0.9" stroke="#334155" />
-        <text x="90" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="600" fill="#c084fc">⚖️ Privacy &amp; AI Posture</text>
+      <g transform="translate(120, 0)">
+        <rect x="0" y="0" width="185" height="36" rx="8" fill="#1d163a" stroke="#402d6b" stroke-width="1.2" />
+        <text x="92" y="23" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#c084fc">⚖️ Privacy &amp; AI Posture</text>
       </g>
     </g>
   </g>
 
-  <!-- Border Frame -->
+  <!-- 7. Outer Border Frame -->
   <rect x="1" y="1" width="1198" height="418" rx="15" fill="none" stroke="#334155" stroke-width="1.5" stroke-opacity="0.6" />
 </svg>
