@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Data-Governance-Security-Suite/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Governance-Security-Suite?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Governance-Security-Suite/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Governance-Security-Suite?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Data-Governance-Security-Suite/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Data-Governance-Security-Suite?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Data-Governance-Security-Suite/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Data-Governance-Security-Suite?style=flat-square&color=brightgreen" alt="Issues"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Data-Governance-Security-Suite/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue?style=flat-square" alt="License"/></a>
@@ -69,7 +69,7 @@ Organizations today demand unified data intelligence across data, identity, and 
 
 ## 🔓 Open-Source GitHub Projects
 
-The open-source data governance and security projects are sorted below by **GitHub Star Count (descending)**:
+The open-source data governance and security projects are sorted below by **GitHub Stars_Count (descending)**:
 
 ### 1. 🗂️ [OpenMetadata](https://github.com/open-metadata/OpenMetadata) [![Stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social&color=white)](https://github.com/open-metadata/OpenMetadata/stargazers)
 * **Description:** Unified metadata platform and modern catalog with comprehensive built-in governance, data quality, and collaboration features.
@@ -183,7 +183,7 @@ When building an enterprise-grade self-hosted governance and security suite, com
 Contributions are welcome! Please follow these simple steps:
 1. 🍴 Fork the repository.
 2. 🌿 Create your feature branch (`git checkout -b feature/add-new-tool`).
-3. 📝 Add your entry adhering to the existing format (include license, capabilities, star badge, and factual descriptions).
+3. 📝 Add your entry adhering to the existing format (include license, capabilities, Stars_Badge, and factual descriptions).
 4. 🚀 Commit your changes (`git commit -m 'feat: add tool-name'`).
 5. 📬 Open a Pull Request with a clear explanation of the addition.
 
